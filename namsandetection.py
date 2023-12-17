@@ -8,7 +8,7 @@ if os.path.exists(model_path):
     model = torch.load(model_path)
 
 if len(sys.argv) < 2:
-    print("Usage: python namsandetection.py <image file>")
+    print("Usage: python3 namsandetection.py <image file>")
     sys.exit(1)
     
 image_path = sys.argv[1]
